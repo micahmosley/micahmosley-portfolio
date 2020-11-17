@@ -14,7 +14,7 @@ class App extends React.Component {
           <Navigation />
           <Switch>
             <div className="main">
-            <Route exact path="/micahmosley.github.io" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={Projects} />
             </div>

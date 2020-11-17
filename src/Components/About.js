@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import '../styles/about.css';
 import picture from '../images/micah.jpg';
 import Aos from 'aos';
+import { Button } from 'react-bootstrap'
 
     const About = () => {
         useEffect(() => {
@@ -18,7 +19,9 @@ import Aos from 'aos';
                 <h3 className="phone">Phone: <span>469-442-7032</span></h3>
                 <img data-aos='fade-up-right' id="micah" src={picture} alt="Micah" />
                 <p className="about-summary">Hello, my name is Micah Mosley. If you are in need of a software engineer with strong analytical and problem-solving skills that works well with others, I am the person for the job. After graduating from the University of Texas at Austin with a B.S. in Petroleum Engineering I spent the following three years honing my analytical, team-work, and problem-solving skills through challenging technical projects as a field engineer. I am a very detail-oriented person and am confident in my ability to write production ready code that is easy to understand for other developers on the team. Having collaborated in engineering teams on technical projects in the past I am also highly capable of dealing with different personalities and ensuring clear communication so that work is completed in an efficient manner.</p>
-
+                <div className="socials">
+                <Button size="lg" href="https://www.linkedin.com/in/micah-mosley-512203128/" target="_blank">LinkedIn</Button> <Button size="lg" href="https://github.com/micahmosley" target="_blank">GitHub</Button>   <Button size="lg" href="https://micah-mosley.medium.com/" target="_blank">Medium</Button>
+                </div>
                 <div className="skills">
                     <h3 id="skills-title">Languages/Frameworks</h3>
                     <p id="skills-list">React.js<span>|</span>Ruby on Rails<span>|</span>Javascript<span>|</span>Redux<span>|</span>HTML5<span>|</span>CSS3<span>|</span>SQL<span>|</span>PostgreSQL<span>|</span>Python<span>|</span>MATLAB<span>|</span>Git/Github</p>

@@ -39,6 +39,10 @@
     grid-area: f;
     font-size: 1.3vw;
 }
+.socials {
+    grid-area: i;
+    text-align: center;
+}
 .phone {
     grid-area: g;
     font-size: 1.3vw;
