@@ -1,0 +1,84 @@
+.about {
+    height: 110vh;
+    display: grid;
+    grid-template-areas: 
+    "a a a"
+    "b c c"
+    "b d e"
+    "b f g"
+    "b h h"
+    "b i i"
+    "j j j";
+    
+    grid-template-rows: 0.2fr 0.1fr 0.0625fr 0.0625fr 0.275fr 0.1fr 0.2fr;
+    grid-template-columns: 0.35fr 0.35fr 0.3fr;             
+    width: 80vw;
+    margin: auto;
+}
+#micah {
+    grid-area: b;
+    width: 17vw;
+    height: 100%;
+    margin: auto;
+}
+
+.degree {
+    grid-area: d;
+    font-size: 1.3vw;
+}
+.degree span, .university span, .email span, .phone span {
+    color: white;
+}
+
+
+.university {
+    grid-area: e;
+    font-size: 1.3vw;
+}
+.email {
+    grid-area: f;
+    font-size: 1.3vw;
+}
+.phone {
+    grid-area: g;
+    font-size: 1.3vw;
+}
+.about-summary{
+    grid-area: h;
+    font-size: 1.3vw;
+    color: white;
+    
+}
+.about-title {
+    grid-area: a;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.about-job {
+    grid-area: c;
+    font-size: 2vw;
+    text-align: center;
+}
+  
+
+
+.skills {
+    grid-area: j;
+    text-align: center;
+    margin: auto;
+    margin-top: 7%;
+}
+
+#skills-title {
+    font-size: 3.5vw;
+}
+#skills-list {
+    font-size: 1.5vw;
+    color: white;
+}
+
+#skills-list span {
+    font-size: 1.5vw;
+    color:  rgb(102, 181, 217);
+}

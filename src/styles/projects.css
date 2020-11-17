@@ -1,0 +1,97 @@
+.projects {
+    height: 130vh;
+    display: grid;
+    grid-template-areas: 
+    "a a"
+    "b c"
+    "d e";
+   
+    grid-template-rows: 0.1fr 0.45fr 0.45fr;
+    grid-template-columns: 0.5fr 0.5fr;           
+    width: 100vw;
+    margin: auto;
+}
+
+.title {
+    grid-area: a;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.proj1 {
+    grid-area: b;
+    text-align: center;
+}
+.proj2 {
+    grid-area: c;
+    text-align: center;
+}
+.proj3 {
+    grid-area: d;
+    text-align: center;
+}
+.proj4 {
+    grid-area: e;
+    text-align: center;
+}
+
+.proj-img {
+    width: 80%;
+    height: 20vw;
+}
+
+.tech-stack {
+    font-size: 1.8vw;
+}
+
+span {
+    color: white;
+}
+
+.demo-modal .modal-content .modal-body img {
+    width: 100%;
+
+}
+.demo-modal {
+    text-align: center;
+    
+}
+.modal-content {
+    background-color:white!important;
+    font-size: 4vw !important;
+}
+
+div .modal-title {
+    font-size: 4vw !important;
+    
+}
+.modal-header {
+   
+    border-bottom: none !important;
+    
+}
+.modal-header .modal-title {
+    margin: auto;
+}
+
+.modal-header span{
+    color: black;
+}
+.modal-title {
+    font-size: 4vw;
+    color: rgb(102, 181, 217);
+}
+.modal-button {
+    margin: auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:rgb(102, 181, 217)!important;
+    border-color: rgb(102, 181, 217) !important;;
+}
+.btn-danger {
+    color: #fff;
+    background-color:rgb(102, 181, 217)!important;
+    border-color: rgb(102, 181, 217) !important;;
+}
